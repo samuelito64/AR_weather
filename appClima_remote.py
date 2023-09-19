@@ -1,15 +1,15 @@
 import requests
 import psycopg2
 # API Key obtained from OpenWeatherMap
-api_key = "325d97a8229e1bd9d897d2a18a24ba22"
+api_key = ""
 
 # database connection parameters
 db_params = {
-    "host": "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com",
+    "host": "",
     "port": "5439",
     "database": "data-engineer-database",
-    "user": "samucor_coderhouse",
-    "password": "eC6j47uSGT"
+    "user": "",
+    "password": ""
 }
 
 def get_weather_data():
